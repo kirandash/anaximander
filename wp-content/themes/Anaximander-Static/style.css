@@ -1621,3 +1621,75 @@ and (min-width : 720px ) and (max-width : 1039px) {
 
 }
 
+@media only screen
+
+and (max-width : 719px ) {
+
+	
+
+	#wrapper {
+
+		width: 100%;
+
+	}
+
+
+
+	#pre-header {
+
+		padding: 0px 20px;
+
+	}
+
+
+
+	#header-search {
+
+		right: 20px;
+
+	}
+
+
+
+	#header-search #searchform input#s {
+
+		width: 175px;
+
+	}
+
+
+
+	#header_margin,
+
+	.page-header h1,
+
+	#related,
+
+	#footer-sidebar ul	{
+
+		padding: 20px;
+
+	}
+
+
+
+	#content {
+
+		margin: 20px;
+
+	}
+
+
+
+	h1#recent {
+
+		margin-left: 20px;
+
+	}
+
+
+
+	
+
+} /* END max-width : 719px */
+
