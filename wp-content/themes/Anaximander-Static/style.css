@@ -272,9 +272,17 @@ Header
 
 .header-container {
 
+	margin-left: 34.04255319148936%;
+
 }
 
 #header-title {
+
+	margin-left: -51.61290322580645%;
+
+	width: 48.38709677419355%;
+
+	float: left;
 
 }
 
