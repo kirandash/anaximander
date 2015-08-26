@@ -2106,3 +2106,82 @@ and (max-width : 719px ) {
 
 } /* END max-width : 719px */
 
+@media only screen
+
+and (max-width : 320px ) {
+
+
+
+	#pre-header {
+
+		padding: 0px 10px;
+
+	}
+
+
+
+	#header-search {
+
+		right: 10px;
+
+	}
+
+
+
+
+
+	#header_margin,
+
+	.page-header h1,
+
+	#related,
+
+	#footer-sidebar ul	{
+
+		padding: 10px;
+
+	}
+
+
+
+	.page-header h1 {
+
+		padding: 20px 10px;
+
+	}
+
+
+
+	#content {
+
+		margin: 20px 10px;
+
+	}
+
+
+
+	h1#recent {
+
+		margin-left: 10px;
+
+	}
+
+
+
+	#related {
+
+		padding: 20px 10px;
+
+	}
+
+
+
+	#footer-sidebar ul {
+
+		padding: 20px 10px;
+
+	}
+
+	
+
+} /* END max-width : 320px */
