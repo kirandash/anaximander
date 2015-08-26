@@ -13,6 +13,11 @@
 <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+
+<!-- Check device width for responsive media queries -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
 <title><?php wp_title(''); ?></title>
 
 <?php // Add definition for the 'rel' attribute in HTML4 browsers ?>	
