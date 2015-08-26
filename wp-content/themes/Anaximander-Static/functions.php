@@ -677,6 +677,52 @@ function anaximander_flexslider() {
 
 
 add_action('init', 'anaximander_flexslider');
+
+
+
+// MASONRY
+
+
+
+function anaximander_masonry() {
+
+	if (!is_admin()) {
+
+		wp_register_script('jquery_masonry', get_template_directory_uri(). '/js/jquery.masonry.min.js', array('jquery'), '2.0.110526' );
+
+		wp_enqueue_script('jquery_masonry');
+
+		add_action('wp_footer', 'anaximander_add_masonry');
+
+		
+
+		function anaximander_add_masonry() { ?>
+
+			<script>
+
+				jQuery(document).ready(function($){
+
+					$('#masonry-index').masonry({
+
+						itemSelector: '.index-post-container',
+
+					});
+
+			  	});
+
+			</script>
+
+		<?php 
+
+		}
+
+	}
+
+}
+
+
+
+add_action('init', 'anaximander_masonry');
 /**
  * The End
  */
