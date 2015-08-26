@@ -883,6 +883,60 @@ Index - Traditional
 	padding: 10px;
 }
 
+
+/* 
+
+-------------------------------------------------------------- 
+
+Index - Masonry
+
+-------------------------------------------------------------- 
+
+*/
+
+
+
+#masonry-index {
+
+	width: 105%;
+
+}
+
+
+
+#masonry-index .textwidget {
+
+	padding:0;
+
+}
+
+
+
+#masonry-index .index-post-container {
+
+	width: 298px;
+
+	border: 1px #e3e3e3 solid;
+
+	float: left;	
+
+	margin: 0 20px 20px 0;
+
+}
+
+
+
+#masonry-index .index-title,
+
+#masonry-index .index-name-date,
+
+#masonry-index .index-content {
+
+	margin: 20px;
+
+}
+
+
 /* Front page widgets */
 
 .index-widget-area .widget {
