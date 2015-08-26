@@ -321,9 +321,15 @@ Header
 
 
 #access {
+
 	display: block;
+
+	float: right;
+
 	margin-top: 10px;
+
 }
+
 
 #access ul {
 	list-style: none;
@@ -331,9 +337,13 @@ Header
 }
 
 #access li {
+
 	float: left;
+
 	position: relative;
-	margin: 0 2em 0 0;
+
+	margin: 0 0 0 2em;
+
 }
 
 #access a {
@@ -1694,6 +1704,20 @@ and (max-width : 719px ) {
 		width: 100%;
 
 		float: none;
+
+	}
+	
+	#access {
+
+		float: left;
+
+	}
+
+
+
+	#access li {
+
+		margin: 0 2em 0 0;
 
 	}
 
