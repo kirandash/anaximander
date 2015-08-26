@@ -18,6 +18,7 @@
 				<span class="sep"> | </span>
 				<?php printf( __( 'Theme: %1$s by %2$s.', 'anaximander' ), 'anaximander', '<a href="http://pinkandyellow.com/" rel="nofollow">Pink &amp; Yellow Media</a>' ); ?>
 				</p>
+                <p><a href="#content">You have reached the bottom. Click here to get back on top.</a></p>
 
 			</div>
 		</div>
