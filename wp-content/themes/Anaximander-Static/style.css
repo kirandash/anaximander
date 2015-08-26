@@ -580,6 +580,24 @@ Main Content
 -------------------------------------------------------------- 
 */
 
+.post-container {
+
+	margin-left: 34.04255319148936%;
+
+}
+
+.entry-header {
+
+	margin-left: -51.61290322580645%;
+
+	width: 48.38709677419355%;
+
+	float: left;
+
+	word-wrap: break-word;
+
+}
+
 .sticky {
 
 }
@@ -1794,6 +1812,24 @@ and (max-width : 719px ) {
 	}
 
 
+
+	.post-container {
+
+		margin-left: 0;
+
+	}
+
+
+
+	.entry-header {
+
+		margin-left: 0;
+
+		width: 100%;
+
+		float: none;
+
+	}
 
 	h1#recent {
 
