@@ -1892,6 +1892,89 @@ and (max-width : 719px ) {
 		margin-left: 20px;
 
 	}
+	
+
+	#regular-index {
+
+		float: none;
+
+		margin: 0; 
+
+	}
+
+
+
+	#regular-content {
+
+		margin: 0;
+
+	}
+
+
+
+	#sidebar {
+
+		float: none;
+
+		overflow: inherit;
+
+		width: 100%;
+
+		margin: 0;
+
+	}
+
+
+
+	/* Change widgets to stack one on top of the other */
+
+
+
+	#sidebar .widget {
+
+		width: inherit;
+
+		border: none;
+
+		background: #E3E3E3;
+
+		float: none;
+
+		padding: 0;
+
+		margin: 0 0 20px 0;
+
+	}
+
+	
+
+	#sidebar .widget ul {
+
+		padding: 0 20px 20px 20px;
+
+	}
+
+
+
+	#sidebar .widget-title {
+
+		padding: 20px 20px 0 20px;
+
+	}
+
+
+
+	#sidebar ul li a:hover,
+
+	#sidebar ul li a:focus {
+
+		background-color: #fff;	
+
+	}
+
+
+
+
 
 
 
