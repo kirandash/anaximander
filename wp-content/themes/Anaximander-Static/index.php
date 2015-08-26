@@ -38,8 +38,8 @@ get_header(); ?>
 				<!-- END Flexslider demo content -->
                 
 			<?php if ( have_posts() ) : ?>
-				<section id="regular-index" class="group">
-				<div id="regular-content">
+				<section id="masonry-index" class="group">
+				<!-- <div id="regular-content"> -->
 				
 				
 				
@@ -52,11 +52,13 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 				
-				</div><!-- #regular-content -->
-				<div class="paginationBox group">	
+				<!--  </div>#regular-content -->
+
+				</section><!-- #masonry-index -->
+				
+                <div class="paginationBox group">	
 					<?php kriesi_pagination($pages = '', $range = 3); ?>
 				</div>
-				</section><!-- #regular-index -->
 			<?php else : ?>
 
 				<article id="post-0" class="post no-results not-found">
@@ -73,7 +75,7 @@ get_header(); ?>
 			<?php endif; ?>
 			
 			
-				<?php get_sidebar();  ?>
+				<?php //get_sidebar();  ?>
 			</div><!-- #content -->
 		</section><!-- #content-container -->
 
