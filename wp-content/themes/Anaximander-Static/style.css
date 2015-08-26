@@ -1973,7 +1973,31 @@ and (max-width : 719px ) {
 	}
 
 
+	#related ul li {
 
+		width: 100%;
+
+		float: none;
+
+		margin-right: 0;
+
+		margin-bottom: 20px;
+
+	}	
+
+
+
+	#footer-sidebar ul li {
+
+		width: 100%;
+
+		float: none;
+
+		margin-right: 0;
+
+		margin-bottom: 50px;
+
+	}
 
 
 
