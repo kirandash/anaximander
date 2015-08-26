@@ -1684,6 +1684,52 @@ Footer
 
 
 
+/* FLEXSLIDER CUSTOM STYLES */
+
+
+
+.flexslider {
+
+	border: 1px solid #ccc!important;
+
+	padding: 10px!important;
+
+	margin-bottom: 60px!important;
+
+	border-radius: 0!important;
+
+	-webkit-border-radius: 0!important;
+
+	-o-border-radius: 0!important;
+
+	-moz-border-radius: 0!important;
+
+	-webkit-box-shadow: none!important;
+
+}
+
+
+
+.flex-direction-nav li .next {
+
+	right: -16px!important;
+
+}
+
+
+
+.flex-direction-nav li .prev {
+
+	left: -17px!important;
+
+}
+
+
+
+
+
+/* END FLEXSLIDER CUSTOM STYLES */
+
 
 /*
 
