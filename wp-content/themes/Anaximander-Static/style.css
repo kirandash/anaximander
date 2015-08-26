@@ -1678,6 +1678,24 @@ and (max-width : 719px ) {
 		padding: 20px;
 
 	}
+	
+	.header-container {
+
+		margin-left: 0;
+
+	}
+
+
+
+	#header-title {
+
+		margin-left: 0;
+
+		width: 100%;
+
+		float: none;
+
+	}
 
 
 
