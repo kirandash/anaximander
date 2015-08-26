@@ -37,7 +37,7 @@ body {
 
 #wrapper {
 	display: block;
-	width: 1040px;
+	max-width: 1040px;
 	margin: 0 auto;
 	background: #fff;
 }
@@ -1592,4 +1592,32 @@ Footer
 
 
 
+
+/*
+
+--------------------------------------------------------------
+
+Media Queries Aplenty
+
+--------------------------------------------------------------
+
+*/
+
+
+
+@media only screen
+
+and (min-width : 720px ) and (max-width : 1039px) {
+
+
+
+	#wrapper {
+
+		max-width: 720px;
+
+	}
+
+
+
+}
 
