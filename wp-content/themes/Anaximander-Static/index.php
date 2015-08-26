@@ -11,45 +11,27 @@ get_header(); ?>
 
 			
 
-				<div class="flexslider">
+			<!-- Flexslider featured content -->
 
-					<ul class="slides">
+			
 
-						<li>
+				<?php
 
-							<img src="http://farm7.staticflickr.com/6213/6256961398_a484813abe_b.jpg" />
+				// Check if this is the front page and that it is not page 2 or higher
 
-							<p class="flex-caption">Caption goes here</p>
+				if ( is_front_page() && !is_paged() ) {
 
-						</li>
+					// Add featured content slider
 
-						<li>
+					get_template_part( 'featureflexslider' );
 
-							<img src="http://farm7.staticflickr.com/6025/6012928351_d643e5a404_b.jpg" />
+				}
 
-							<p class="flex-caption">Caption goes here</p>
+				?>
 
-						</li>
+				
 
-						<li>
-
-							<img src="http://farm7.staticflickr.com/6126/6007110789_bd7faaaa79_b.jpg" />
-
-							<p class="flex-caption">Caption goes here</p>
-
-						</li>
-
-						<li>
-
-							<img src="http://farm6.staticflickr.com/5159/5874760659_de4c00d585_b.jpg" />
-
-							<p class="flex-caption">Caption goes here</p>
-
-						</li>
-
-					</ul>
-
-				</div>
+			<!-- END Flexslider featured -->				
 
 				
 
